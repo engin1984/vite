@@ -1,0 +1,24 @@
+// Set your brand colors
+$RebeccaPurple: #663399;
+$navy: #000080;
+$oldLace: #FDF5E6;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"Montserrat", sans-serif',
+  $primary: $RebeccaPurple,
+  $link: $navy,
+  $control-border-width: 2px,
+  $input-shadow: none,
+  $footer-padding: 1rem,
+  $body-background-color: $oldLace,
+);
+
+// Import the Google Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+// others
+
+// others
+
+// others
